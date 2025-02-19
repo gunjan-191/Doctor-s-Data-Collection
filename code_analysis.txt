@@ -1,0 +1,113 @@
+Task 1: Code Analysis
+Imports and Their Roles
+import streamlit as st
+
+Used for creating the web-based user interface.
+from langchain_core.messages import AIMessage, HumanMessage
+
+Handles AI-human conversation messages.
+from langchain_community.document_loaders import WebBaseLoader
+
+Loads webpage content from a given URL.
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+
+Splits large text into smaller chunks for processing.
+from langchain_community.vectorstores import Chroma
+
+Stores and retrieves document embeddings.
+from langchain_openai import OpenAIEmbeddings, ChatOpenAI
+
+Handles OpenAI embeddings and chat models.
+from dotenv import load_dotenv
+
+Loads environment variables from a .env file.
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+
+Creates structured prompts for the chatbot.
+from langchain.chains import create_history_aware_retriever, create_retrieval_chain
+
+Manages historical context-aware retrieval and document-based retrieval.
+from langchain.chains.combine_documents import create_stuff_documents_chain
+
+Combines multiple documents into a single response.
+Function Breakdown and Purpose
+get_vectorstore_from_url(url)
+
+Loads website content using WebBaseLoader.
+Splits text into smaller chunks using RecursiveCharacterTextSplitter.
+Converts chunks into vector embeddings and stores them in Chroma.
+Returns the vector store for later retrieval.
+get_context_retriever_chain(vector_store)
+
+Initializes an LLM (ChatOpenAI).
+Retrieves relevant documents using vector_store.as_retriever().
+Uses a prompt to generate a search query from conversation history.
+Creates a retriever_chain that fetches relevant information.
+get_conversational_rag_chain(retriever_chain)
+
+Creates another ChatOpenAI instance.
+Defines a structured prompt for responding based on retrieved context.
+Uses create_stuff_documents_chain to combine retrieved documents into an answer.
+Returns a conversational RAG (Retrieval-Augmented Generation) chain.
+get_response(user_input)
+
+Retrieves the retriever_chain from session state.
+Creates a conversational RAG chain.
+Passes user input and chat history into the model.
+Returns the model-generated response.
+Application Workflow
+Streamlit UI Setup
+
+Uses st.set_page_config() to set up the page title and icon.
+Displays st.title("Chat with websites").
+Sidebar Settings
+
+Accepts a URL input from the user.
+If no URL is provided, displays an info message.
+Session State Management
+
+Stores chat_history for ongoing conversation tracking.
+Stores vector_store after loading data from the provided URL.
+User Query Handling
+
+Retrieves user input.
+Passes it through the retrieval and RAG chains.
+Updates chat history with the user query and AI response.
+Displaying Messages
+
+Iterates through st.session_state.chat_history to display AI and Human messages.
+
+
+Task 2: Structured Prompt Design
+Provide detailed and structured responses for the following aspects:
+
+1. **General Overview**
+   - What is Andalusia Health?
+   - What services does it offer?
+   - Where is it located?
+
+2. **Medical Services**
+   - What specialties and treatments are available?
+   - Are there any renowned doctors or departments?
+   - Does it provide emergency or outpatient services?
+
+3. **Facilities and Technology**
+   - What advanced medical technologies are used?
+   - Does the hospital offer telemedicine services?
+
+4. **Patient Experience**
+   - What are patient reviews and ratings?
+   - What measures are in place for patient safety?
+
+5. **Affiliations and Accreditations**
+   - Is Andalusia Health affiliated with any major medical organizations?
+   - What certifications or accreditations does it hold?
+
+6. **Financial and Insurance Information**
+   - Does the hospital accept insurance?
+   - Are there financial assistance programs for patients?
+
+7. **Community Involvement**
+   - Does Andalusia Health participate in medical research or community outreach programs?
+
+Provide clear, concise, and structured responses based on reliable sources.

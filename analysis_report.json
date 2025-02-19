@@ -1,0 +1,278 @@
+{
+    "Total Doctors": 73,
+    "Doctors with Ratings": 14,
+    "Duplicate Phones": [
+        {
+            "_id": "(334) 222-0625",
+            "count": 5,
+            "doctors": [
+                "JoAnne Smith, DO",
+                "JoAnne Smith, DO",
+                "JoAnne Smith, DO",
+                "JoAnne Smith, DO",
+                "JoAnne Smith, DO"
+            ]
+        },
+        {
+            "_id": "(334) 493-2400",
+            "count": 2,
+            "doctors": [
+                "Bhagwan Bang, MD",
+                "Bhagwan Bang, MD"
+            ]
+        },
+        {
+            "_id": "(334) 222-0995",
+            "count": 5,
+            "doctors": [
+                "Charles R. Kerr, MD",
+                "Charles R. Kerr, MD",
+                "Charles R. Kerr, MD",
+                "Charles R. Kerr, MD",
+                "Charles R. Kerr, MD"
+            ]
+        },
+        {
+            "_id": "(334) 222-8525",
+            "count": 2,
+            "doctors": [
+                "Rex Butler, MD",
+                "Rex Butler, MD"
+            ]
+        },
+        {
+            "_id": "3342222393",
+            "count": 2,
+            "doctors": [
+                "Robert L. Long, MD",
+                "Robert L. Long, MD"
+            ]
+        },
+        {
+            "_id": "(334) 222-3222",
+            "count": 6,
+            "doctors": [
+                "Sadik Yesil, MD",
+                "Sadik Yesil, MD",
+                "Sadik Yesil, MD",
+                "Sadik Yesil, MD",
+                "Sadik Yesil, MD",
+                "Sadik Yesil, MD"
+            ]
+        },
+        {
+            "_id": "(334) 222-8466",
+            "count": 2,
+            "doctors": [
+                "Mary Elizabeth Hobson, CRNA",
+                "Mary Elizabeth Hobson, CRNA"
+            ]
+        },
+        {
+            "_id": "(334) 222-2073",
+            "count": 4,
+            "doctors": [
+                "Patrick Kelly, DO",
+                "Kristy Nichols, CRNP",
+                "Sherry Wright, CRNP",
+                "Patrick Kelly, DO"
+            ]
+        },
+        {
+            "_id": "(334) 427-4999",
+            "count": 2,
+            "doctors": [
+                "Alexandru Benet, MD",
+                "Alexandru Benet, MD"
+            ]
+        },
+        {
+            "_id": "(334) 428-7047",
+            "count": 10,
+            "doctors": [
+                "Christopher Blatz, CRNA",
+                "Willie Furr, CRNA",
+                "Julie Gay, CRNA",
+                "Sandy Griffin, CRNA",
+                "Michele Thomason, CRNA",
+                "Christopher Blatz, CRNA",
+                "Willie Furr, CRNA",
+                "Julie Gay, CRNA",
+                "Sandy Griffin, CRNA",
+                "Michele Thomason, CRNA"
+            ]
+        },
+        {
+            "_id": "(334) 222-1366",
+            "count": 8,
+            "doctors": [
+                "Kathrine Langley, CRNP",
+                "Kathrine Langley, CRNP",
+                "William Farmer, MD",
+                "Kathrine Langley, CRNP",
+                "Kathrine Langley, CRNP",
+                "Jenny Goss, CNM",
+                "Kathrine Langley, CRNP",
+                "William Farmer, MD"
+            ]
+        },
+        {
+            "_id": "(334) 222-6041",
+            "count": 2,
+            "doctors": [
+                "Caleb Yongkuma, MD",
+                "Caleb Yongkuma, MD"
+            ]
+        },
+        {
+            "_id": "(334) 222-5781",
+            "count": 2,
+            "doctors": [
+                "Lee Carney, MD",
+                "Lee Carney, MD"
+            ]
+        },
+        {
+            "_id": "(334) 222-1022",
+            "count": 6,
+            "doctors": [
+                "Carson Klein, M.D.",
+                "Carson Klein, M.D.",
+                "Carson Klein, M.D.",
+                "Carson Klein, M.D.",
+                "Carson Klein, M.D.",
+                "Carson Klein, M.D."
+            ]
+        },
+        {
+            "_id": "(334) 222-4327",
+            "count": 8,
+            "doctors": [
+                "Gregory D. Price Sr, MD",
+                "Heide Price, FNP",
+                "Heide Price, FNP",
+                "Gregory D. Price Sr, MD",
+                "Heide Price, FNP",
+                "Heide Price, FNP",
+                "Heide Price, FNP",
+                "Heide Price, FNP"
+            ]
+        },
+        {
+            "_id": "(334) 222-7337",
+            "count": 4,
+            "doctors": [
+                "Christyl Hines, CRNP",
+                "Srividhya Sridharan, MD",
+                "Christyl Hines, CRNP",
+                "Srividhya Sridharan, MD"
+            ]
+        },
+        {
+            "_id": "(334) 222-2393",
+            "count": 2,
+            "doctors": [
+                "Connie Lasley, CRNP",
+                "Connie Lasley, CRNP"
+            ]
+        }
+    ],
+    "Doctors with Multiple Locations": [
+        {
+            "_id": "Rex Butler, MD",
+            "location_count": 2
+        },
+        {
+            "_id": "Sandy Griffin, CRNA",
+            "location_count": 2
+        },
+        {
+            "_id": "Julie Gay, CRNA",
+            "location_count": 2
+        },
+        {
+            "_id": "Michele Thomason, CRNA",
+            "location_count": 2
+        },
+        {
+            "_id": "Patrick Kelly, DO",
+            "location_count": 2
+        },
+        {
+            "_id": "Willie Furr, CRNA",
+            "location_count": 2
+        },
+        {
+            "_id": "Lee Carney, MD",
+            "location_count": 2
+        },
+        {
+            "_id": "JoAnne Smith, DO",
+            "location_count": 5
+        },
+        {
+            "_id": "Connie Lasley, CRNP",
+            "location_count": 2
+        },
+        {
+            "_id": "William Farmer, MD",
+            "location_count": 2
+        },
+        {
+            "_id": "Heide Price, FNP",
+            "location_count": 6
+        },
+        {
+            "_id": "Mary Elizabeth Hobson, CRNA",
+            "location_count": 2
+        },
+        {
+            "_id": "Gregory D. Price Sr, MD",
+            "location_count": 2
+        },
+        {
+            "_id": "Sadik Yesil, MD",
+            "location_count": 6
+        },
+        {
+            "_id": "Bhagwan Bang, MD",
+            "location_count": 2
+        },
+        {
+            "_id": "Christopher Blatz, CRNA",
+            "location_count": 2
+        },
+        {
+            "_id": "Carson Klein, M.D.",
+            "location_count": 6
+        },
+        {
+            "_id": "Christyl Hines, CRNP",
+            "location_count": 2
+        },
+        {
+            "_id": "Caleb Yongkuma, MD",
+            "location_count": 2
+        },
+        {
+            "_id": "Kathrine Langley, CRNP",
+            "location_count": 5
+        },
+        {
+            "_id": "Charles R. Kerr, MD",
+            "location_count": 5
+        },
+        {
+            "_id": "Srividhya Sridharan, MD",
+            "location_count": 2
+        },
+        {
+            "_id": "Robert L. Long, MD",
+            "location_count": 2
+        },
+        {
+            "_id": "Alexandru Benet, MD",
+            "location_count": 2
+        }
+    ]
+}
